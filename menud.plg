@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: menud - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\B104\AppData\Local\Temp\RSPFC13.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/menud.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Ankit\menud\ids.cpp"
+]
+Creating command line "cl.exe @C:\Users\B104\AppData\Local\Temp\RSPFC13.tmp" 
+<h3>Output Window</h3>
+Compiling...
+ids.cpp
+D:\Ankit\menud\ids.cpp(26) : error C2146: syntax error : missing ';' before identifier 'm_Prog'
+D:\Ankit\menud\ids.cpp(26) : error C2501: 'CProgressCtrl' : missing storage-class or type specifiers
+D:\Ankit\menud\ids.cpp(26) : error C2501: 'm_Prog' : missing storage-class or type specifiers
+D:\Ankit\menud\ids.cpp(61) : error C2065: 'intiCtrls' : undeclared identifier
+D:\Ankit\menud\ids.cpp(62) : error C2065: 'ICC_PRGRESS_CLASS' : undeclared identifier
+D:\Ankit\menud\ids.cpp(63) : error C2065: 'InitCommonControlEx' : undeclared identifier
+D:\Ankit\menud\ids.cpp(121) : error C2065: 'IDD_PROGRESS1' : undeclared identifier
+D:\Ankit\menud\ids.cpp(129) : error C2065: 'm_Prog' : undeclared identifier
+D:\Ankit\menud\ids.cpp(129) : error C2228: left of '.Create' must have class/struct/union type
+D:\Ankit\menud\ids.cpp(129) : error C2065: 'r' : undeclared identifier
+D:\Ankit\menud\ids.cpp(129) : error C2065: 'IDD_PROGBAR' : undeclared identifier
+D:\Ankit\menud\ids.cpp(130) : error C2228: left of '.SetRange' must have class/struct/union type
+D:\Ankit\menud\ids.cpp(131) : error C2228: left of '.SetStep' must have class/struct/union type
+D:\Ankit\menud\ids.cpp(346) : error C2228: left of '.StepIt' must have class/struct/union type
+D:\Ankit\menud\ids.cpp(351) : error C2143: syntax error : missing ';' before '}'
+D:\Ankit\menud\ids.cpp(351) : error C2143: syntax error : missing ';' before '}'
+D:\Ankit\menud\ids.cpp(351) : error C2143: syntax error : missing ';' before '}'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+ids.obj - 17 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
